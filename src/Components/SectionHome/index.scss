@@ -1,0 +1,48 @@
+section#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+
+  p {
+    color: var(--text);
+  }
+
+  .title {
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--white);
+  }
+
+  .description {
+    color: var(--text-highlight);
+  }
+
+  .profile-picture {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+    a {
+      margin-right: 1rem;
+    }
+    a:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+
+
+
+
+
