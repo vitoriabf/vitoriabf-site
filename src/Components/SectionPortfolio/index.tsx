@@ -27,8 +27,8 @@ export function SectionPortfolio() {
                 </ul>
 
                 <div className="portfolio-options">
-                    <button><a href="#" >More</a></button>
-                    <button><a href="https://github.com/vitoriabf?tab=repositories" target="__blank">Repositories at Github</a></button>
+                    <button><a href="#" rel="nofollow, noreferrer, noopener, external">More</a></button>
+                    <button><a href="https://github.com/vitoriabf?tab=repositories" target="__blank" rel="nofollow, noreferrer, noopener, external">Repositories at Github</a></button>
                 </div>
 
 
